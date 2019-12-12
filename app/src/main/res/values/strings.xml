@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MapleMedia</string>
+    <string name="title_mopub">MoPub</string>
+    <string name="title_web">Web</string>
+    <string name="title_alert">Alert</string>
+
+    <string name="title_permissions">Permissions</string>
+
+    <!-- Alert Fragment Strings -->
+    <string name="alert_fragment_title">This is the Alert fragment</string>
+    <string name="alert_button">Alert</string>
+    <string name="alert_dialog_title">Maple Media</string>
+    <string name="alert_dialog_message">Your alert works!</string>
+    <string name="alert_dialog_button">ok</string>
+
+
+    <!-- MoPub Fragment Strings -->
+    <string name="mopub_fragment_title">This is the MoPub fragment</string>
+    <string name="show_banner_button">Show Banner</string>
+    <string name="load_interstitial_button">Load Interstitial</string>
+    <string name="show_interstitial_button">Show Interstitial</string>
+
+    <!-- Permission Fragment Strings -->
+    <string name="permission_fragment_title">This is the Permissions fragment</string>
+    <string name="permission_button">Access_coarse_location</string>
+
+    <!-- Web Fragment String -->
+    <string name="web_fragment_title">This is the Web fragment</string>
+    <string name="launch_web_intent_button">maplemedia.io</string>
+    <string name="web_intent_url">http://maplemedia.io</string>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_mopub">
+
+    <fragment
+        android:id="@+id/navigation_mopub"
+        android:name="com.example.maplemedia.ui.mopub.MopubFragment"
+        android:label="@string/title_mopub"
+        tools:layout="@layout/fragment_mopub" />
+
+    <fragment
+        android:id="@+id/navigation_web"
+        android:name="com.example.maplemedia.ui.web.WebFragment"
+        android:label="@string/title_web"
+        tools:layout="@layout/fragment_web" />
+
+    <fragment
+        android:id="@+id/navigation_alert"
+        android:name="com.example.maplemedia.ui.alert.AlertFragment"
+        android:label="@string/title_alert"
+        tools:layout="@layout/fragment_alert" />
+
+    <fragment
+        android:id="@+id/navigation_permissions"
+        android:name="com.example.maplemedia.ui.permissions.PermissionsFragment"
+        android:label="@string/title_permissions"
+        tools:layout="@layout/fragment_permissions" />
+</navigation>
